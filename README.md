@@ -20,3 +20,36 @@
 
 The dataset provides a comprehensive view of customer behavior and product preferences during a specific timeframe, offering valuable insights into operational and marketing strategies for the coffee shop chain.
 ## DATA COLLECTION AND PREPARATION
+![](raw_data.PNG)
+#### The above is showing the raw data used
+## Problem Statement
+#### The aim is to perform a comprehensive analysis of the sales data to identify patterns and trends that can help in understanding customer preferences and optimizing sales strategies. Specific areas of interest include:
+1.	Sales Distribution: Analyze the distribution of sales throughout the morning to identify peak hours and low sales periods.
+2.	Product Popularity: Determine the most and least popular products based on the quantity sold and revenue generated.
+3.	Category Analysis: Compare the performance of different product categories (e.g., Coffee, Tea, Drinking Chocolate, Bakery).
+4.	Customer Preferences: Examine preferences for specific product types and details (e.g., Gourmet brewed coffee, Hot chocolate).
+5.	Pricing Impact: Investigate the impact of unit prices on the quantity of products sold.
+6.	Sales Correlation: Identify any correlations between different products being purchased together.
+## Skills/ Tools Applied
+- Filtering and sorting the data 
+-	Removing unwanted value
+- Conditional Formatting
+- Text Functions
+-	Date and Time Functions
+-	Data Validation 
+-	Formulas and Functions 
+-	Visualization
+-	Pivot Tables
+-	Pivot Charts 
+-	Use of charts and Graphs
+-	Use of slicers
+-	Create Dashboard 
+## Data Cleaning/Transformation
+### The following tasks were performed in the initial stage of the analysis
+1)	Added a column for Revenue using the operator =D2*H2
+2)	Added a column for month using =MONTH(B2)
+3)	Added a column for monthName using =TEXT(B2,"mmm")
+4)	Added a column for weekday using =WEEKDAY(B2,2)
+5)	Added a column for weekdayName using =TEXT(B2,"ddd")
+6)	Added a column for Hour using =HOUR(C2)
+
