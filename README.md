@@ -53,3 +53,11 @@ The dataset provides a comprehensive view of customer behavior and product prefe
 5)	Added a column for weekdayName using =TEXT(B2,"ddd")
 6)	Added a column for Hour using =HOUR(C2)
 
+### The Transformed Data
+![](transformed_data.PNG)
+### Analysis and Summaries with Pivot Tables
+![](Pivot_table.PNG)
+### VISUALIZATION/DASHBOARD
+![](dashboard_Coffee_shop.PNG)
+
+### RESULT/FINDINGS
